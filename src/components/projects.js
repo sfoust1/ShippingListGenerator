@@ -13,7 +13,7 @@ class Projects extends Component {
         <div className='projects-grid'>
         <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: '#000', height: '180px', background:
-          'url(https://github.com/sfoust1/myportfoliosite/blob/master/Food%20Pictures/Blueberry%20Date%20Oatmeal.png) center / cover' }}>
+          'url(https://github.com/sfoust1/ShoppingListGenerator/blob/master/FoodPictures/Blueberry%20Date%20Oatmeal.png) center / cover' }}>
 
               Snap Window
             </CardTitle>
