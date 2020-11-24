@@ -7,14 +7,13 @@ class Projects extends Component {
     super(props);
     this.state = { activeTab: 0};
   }
-
   toggleCategories() {
     if(this.state.activeTab === 0) {
       return (
         <div className='projects-grid'>
-          <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background:
-            'url(https://imageog.flaticon.com/icons/png/512/226/226777.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF) center / cover' }}>
+        <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#000', height: '180px', background:
+          'url(https://github.com/sfoust1/myportfoliosite/blob/master/Food%20Pictures/Blueberry%20Date%20Oatmeal.png) center / cover' }}>
 
               Snap Window
             </CardTitle>
@@ -67,7 +66,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored href='https://github.com/sfoust1/myportfoliosite'>GitHub</Button>
-              <Button colored>YouTube</Button>
             </CardActions>
             <CardMenu style ={{color: '#fff'}}>
               <IconButton name= 'share' />
@@ -82,10 +80,12 @@ class Projects extends Component {
   render() {
     return (
       <div className="category-tabs">
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} riiple>
-          <Tab>Java</Tab>
-          <Tab>Kotlin</Tab>
-          <Tab>React</Tab>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})}>
+          <Tab>Breakfast</Tab>
+          <Tab>Morning Snack</Tab>
+          <Tab>Lunch</Tab>
+          <Tab>Afternoon Snack</Tab>
+          <Tab>Dinner</Tab>
         </Tabs>
 
         <Grid>
