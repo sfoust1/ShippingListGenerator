@@ -1,91 +1,209 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, CardMenu, Button, IconButton } from 'react-mdl';
+var json = require('../KidsEatInColor.json');
+var convert = require('convert-units');
 
+var cartJson = {};
 class Projects extends Component {
 
   constructor(props) {
     super(props);
     this.state = { activeTab: 0};
   }
+
+  compare(a, b) {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+
+    if(nameA > nameB) {
+      return 1;
+    } else if (nameA < nameB) {
+      return -1;
+    } else {
+      return 0;
+    }
+  }
+  handleSIUnits(UI, qty) {
+    switch(UI) {
+      case "tablespoon":
+      case "teaspoon":
+      case "pint":
+      case "quart":
+      case "gallon":
+      case "fl-oz":
+      case "ml":
+      case "liter":
+        return convert(qty).from(UI).to("cup");
+      case "oz":
+      case "gram":
+      case "kilogram":
+      case "milligram":
+        return convert(qty).from(UI).to("lb");
+
+      default:
+        return qty;
+    }
+  }
+  printObject(jsonObj) {
+    var tempObj = {};
+    if(cartJson.hasOwnProperty("ingredients")) {
+      tempObj = cartJson["ingredients"];
+    }
+    for(var key in jsonObj) {
+      if (tempObj.hasOwnProperty(key)) {
+        console.log("We have a repeat: " + key);
+        if(tempObj[key]["UI"] === jsonObj[key]["UI"]) {
+          tempObj[key]["qty"] += jsonObj[key]["qty"];
+        } else {
+          // Ensure original object is of the unified UM
+          tempObj[key]["qty"] = this.handleSIUnits(tempObj[key]["UI"],
+            tempObj[key]["qty"]);
+          tempObj[key]["qty"] += this.handleSIUnits(jsonObj[key]["UI"],
+            jsonObj[key]["qty"])
+        }
+      } else {
+        tempObj[key] = jsonObj[key];
+      }
+    }
+    cartJson["ingredients"] = tempObj;
+    console.log(cartJson)
+  }
   toggleCategories() {
     if(this.state.activeTab === 0) {
       return (
-        <div className='projects-grid'>
-        <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#000', height: '180px', background:
-          'url(https://github.com/sfoust1/ShoppingListGenerator/blob/master/FoodPictures/Blueberry%20Date%20Oatmeal.png) center / cover' }}>
-
-              Snap Window
-            </CardTitle>
-            <CardText>
-              Snaps and swaps multiple windows, JavaFX
-            </CardText>
-            <CardActions border>
-              <Button colored href='https://github.com/sfoust1/MultiWindowManager'>GitHub</Button>
-              <Button colored href='https://youtu.be/s8Fmdp6y6i8'>YouTube</Button>
-            </CardActions>
-            <CardMenu style ={{color: '#fff'}}>
-              <IconButton name= 'share' />
-            </CardMenu>
-          </Card>
-        </div>
+        <ol>
+        {json.filter(function(meal){ return meal.meal === "breakfast"}).map((item) =>
+          <div className='Breakfast' key={item.name}>
+          <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '180px', background:
+            'url('+process.env.PUBLIC_URL+'/images/'+item.meal+'/'+item.image+') center / cover' }}>
+              </CardTitle>
+              <CardText>
+                {item.name}
+              </CardText>
+              <CardActions border>
+                <Button style={{float: 'right'}} onClick={() => this.printObject(item.ingredients)} >Add To Cart</Button>
+              </CardActions>
+              <CardMenu style ={{color: '#fff'}}>
+                <IconButton name= 'share' />
+              </CardMenu>
+            </Card>
+          </div>
+        )}
+        </ol>
       )
     } else if (this.state.activeTab === 1) {
       return (
-        <div className='projects-grid'>
+        <ol>
+        {json.filter(function(meal){ return meal.meal === "lunch"}).map((item) =>
+          <div className='Lunch' key={item.name}>
           <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#000', height: '180px', background:
-            'url(https://kotlinlang.org/assets/images/open-graph/kotlin_250x250.png) center / cover' }}>
-
-            Shopping List
-            </CardTitle>
-            <CardText>
-              A simple, but reactive shopping app
-            </CardText>
-            <CardActions border>
-              <Button colored href='https://github.com/sfoust1/ShoppingList'>GitHub</Button>
-              <Button colored href='https://youtu.be/fts6LuNIDhc'>YouTube</Button>
-            </CardActions>
-            <CardMenu style ={{color: '#fff'}}>
-              <IconButton name= 'share' />
-            </CardMenu>
-          </Card>
-        </div>
+            'url('+process.env.PUBLIC_URL+'/images/'+item.meal+'/'+item.image+') center / cover' }}>
+              </CardTitle>
+              <CardText>
+                {item.name}
+              </CardText>
+              <CardActions border>
+                <Button style={{float: 'right'}} onClick={() => this.printObject(item.ingredients)} >Add To Cart</Button>
+              </CardActions>
+              <CardMenu style ={{color: '#fff'}}>
+                <IconButton name= 'share' />
+              </CardMenu>
+            </Card>
+          </div>
+        )}
+        </ol>
       )
     } else if (this.state.activeTab === 2) {
       return (
-        <div className='projects-grid'>
+        <ol>
+        {json.filter(function(meal){ return meal.meal === "dinner"}).map((item) =>
+          <div className='Breakfast' key={item.name}>
           <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '180px', background:
-            'url(https://icon-library.net/images/react-icon/react-icon-29.jpg) center / cover' }}>
+            <CardTitle style={{color: '#000', height: '180px', background:
+            'url('+process.env.PUBLIC_URL+'/images/'+item.meal+'/'+item.image+') center / cover' }}>
+              </CardTitle>
+              <CardText>
+                {item.name}
+              </CardText>
+              <CardActions border>
+                <Button style={{float: 'right'}} onClick={() => this.printObject(item.ingredients)} >Add To Cart</Button>
+              </CardActions>
+              <CardMenu style ={{color: '#fff'}}>
+                <IconButton name= 'share' />
+              </CardMenu>
+            </Card>
+          </div>
+        )}
+        </ol>
+      )
+    } else if (this.state.activeTab === 3) {
+      return (
+        <ol>
+        {json.filter(function(meal){ return meal.meal === "snacks"}).map((item) =>
+          <div className='Breakfast' key={item.name}>
+          <Card shadow={5} style={{mindWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '180px', background:
+            'url('+process.env.PUBLIC_URL+'/images/'+item.meal+'/'+item.image+') center / cover' }}>
+              </CardTitle>
+              <CardText>
+                {item.name}
+              </CardText>
+              <CardActions border>
+                <Button style={{float: 'right'}} onClick={() => this.printObject(item.ingredients)} >Add To Cart</Button>
+              </CardActions>
+              <CardMenu style ={{color: '#fff'}}>
+                <IconButton name= 'share' />
+              </CardMenu>
+            </Card>
+          </div>
+        )}
+        </ol>
+      )
+    } else if (this.state.activeTab === 4) {
+      var listIngredients = [];
+      for(var key in cartJson["ingredients"]) {
+        const tempJson = cartJson["ingredients"][key];
+        listIngredients.push({"name":key, "qty":tempJson["qty"], "UI":tempJson["UI"]});
+      }
+      listIngredients.sort(function(a, b) {
+        const nameA = a.name.toUpperCase();
+        const nameB = b.name.toUpperCase();
 
-            Portfolio Website
-            </CardTitle>
-            <CardText>
-              A React Udemy Course Tutorial
-            </CardText>
-            <CardActions border>
-              <Button colored href='https://github.com/sfoust1/myportfoliosite'>GitHub</Button>
-            </CardActions>
-            <CardMenu style ={{color: '#fff'}}>
-              <IconButton name= 'share' />
-            </CardMenu>
-          </Card>
+        if(nameA > nameB) {
+          return 1;
+        } else if (nameA < nameB) {
+          return -1;
+        } else {
+          return 0;
+        }
+      });
+      return (
+      <ol>
+      {
+        listIngredients.map((item) =>
+        <div className='Breakfast' key={item.name}>
+          <p>
+              {item.name}: {item.qty} {item.UI} (s)
+          </p>
         </div>
+      )}
+      </ol>
+
       )
     }
   }
-
 
   render() {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})}>
           <Tab>Breakfast</Tab>
-          <Tab>Morning Snack</Tab>
           <Tab>Lunch</Tab>
-          <Tab>Afternoon Snack</Tab>
           <Tab>Dinner</Tab>
+          <Tab>Snacks</Tab>
+          <Tab>Cart</Tab>
         </Tabs>
 
         <Grid>

@@ -115,3 +115,10 @@
   color: white;
   padding: 2em;
 }
+
+.printme { display: all;}
+@media print {
+    .no-printme  { display: none;}
+    .category-tabs { display: block;}
+    .printme  { display: block;}
+}

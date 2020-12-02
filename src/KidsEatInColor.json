@@ -1,0 +1,1001 @@
+[
+	{
+		"meal":"breakfast",
+		"name":"Blueberry Date Oatmeal with Cauliflower",
+		"yield":2,
+		"prep time":10,
+		"cook time":7,
+		"ingredients":{
+			"rolled oats":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"frozen riced cauliflower":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"dates":{
+				"qty":6,
+				"UI":"each"
+			},
+			"coconut oil":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"frozen blueberries":{
+				"qty":0.5,
+				"UI":"cup"
+			}
+		},
+		"page":9,
+		"image":"BlueberryDateOatmeal.png"
+	},
+	{
+		"meal":"breakfast",
+		"name":"Sprinkle Toast & Milk",
+		"yield":1,
+		"prep time":5,
+		"cook time":0,
+		"ingredients":{
+			"bread":{
+				"qty":1,
+				"UI":"slice"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":19,
+		"image":"SprinkleToastAndMilk.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Freezer Chocolate Banana Muffins",
+		"yield":12,
+		"prep time":15,
+		"cook time":20,
+		"ingredients":{
+			"rolled oats":{
+				"qty":0.66,
+				"UI":"cup"
+			},
+			"wheat flour":{
+				"qty":0.66,
+				"UI":"cup"
+			},
+			"hemp seeds":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"baking soda":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"cinnamon":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"chocolate chips":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"cooked green lentils":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"oil (I use avocado oil)":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"banana":{
+				"qty":2,
+				"UI":"each"
+			},
+			"sugar":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"vanilla":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"eggs":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":10,
+		"image":"FreezerChocolateBananaMuffins.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Leftover Chicken & Potato Kebabs with Dip",
+		"yield":1,
+		"prep time":0,
+		"cook time":0,
+		"ingredients":{
+			"leftover chicken":{
+				"qty":1,
+				"UI":"each"
+			},
+			"leftover potato":{
+				"qty":1,
+				"UI":"each"
+			},
+			"cucumber":{
+				"qty":1,
+				"UI":"each"
+			},
+			"carrot":{
+				"qty":1,
+				"UI":"each"
+			},
+			"broccoli":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":11,
+		"image":"LeftoverChickenPotatoKebabs.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Bar & Fruit or Veggie",
+		"yield":1,
+		"prep time":0,
+		"cook time":0,
+		"ingredients":{
+			"Healthy Grain Bar <6g added sugar":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"crackers":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":12,
+		"image":"BarFruitOrVeggie.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Pasta with Red Lentil Sauce and Salad",
+		"yield":4,
+		"prep time":0,
+		"cook time":0,
+		"ingredients":{
+			"pasta":{
+				"qty":1,
+				"UI":"each"
+			},
+			"jar of pasta sauce":{
+				"qty":1,
+				"UI":"each"
+			},
+			"mushrooms, sliced":{
+				"qty":8,
+				"UI":"oz"
+			},
+			"avocado oil":{
+				"qty":1,
+				"UI":"each"
+			},
+			"red Lentils":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"salad":{
+				"qty":1,
+				"UI":"bag"
+			},
+			"parmesan cheese":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":13,
+		"image":"PastaWithRedLentilSauceAndSalad.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Rainbow Frittatas",
+		"yield":12,
+		"prep time":20,
+		"cook time":22.5,
+		"ingredients":{
+			"bell pepper":{
+				"qty":1,
+				"UI":"each"
+			},
+			"small potato":{
+				"qty":2,
+				"UI":"each"
+			},
+			"mushrooms, diced":{
+				"qty":8,
+				"UI":"oz"
+			},
+			"avocado oil":{
+				"qty":4,
+				"UI":"Tbs"
+			},
+			"eggs":{
+				"qty":12,
+				"UI":"each"
+			},
+			"milk":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"onion salt":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"salt":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"pepper":{
+				"qty":0.125,
+				"UI":"tsp"
+			},
+			"shredded cheese":{
+				"qty":0.75,
+				"UI":"cup"
+			}
+		},
+		"page":20,
+		"image":"RainbowFrittatas.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Cucumber Bagel & Cream Cheese with Fruit & Vegetable",
+		"yield":1,
+		"prep time":7,
+		"cook time":0,
+		"ingredients":{
+			"bagel":{
+				"qty":1,
+				"UI":"each"
+			},
+			"cream cheese":{
+				"qty":1,
+				"UI":"each"
+			},
+			"cucumber":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			},
+			"trail mix":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":21,
+		"image":"CucumberBagelCreamCheeseWithFruitVegetable.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Hummus, Cracker & Veggies",
+		"yield":1,
+		"prep time":7,
+		"cook time":0,
+		"ingredients":{
+			"hummus":{
+				"qty":1,
+				"UI":"each"
+			},
+			"crackers":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":22,
+		"image":"HummusCrackerVeggie.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Tacos with Rainbow Sides",
+		"yield":12,
+		"prep time":20,
+		"cook time":17.5,
+		"ingredients":{
+			"ground turkey":{
+				"qty":1,
+				"UI":"lb"
+			},
+			"beans (kidney, pinto, black, etc.)":{
+				"qty":2,
+				"UI":"can"
+			},
+			"chili powder":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"cumin":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"taco veggies (rainbow colorful: red cabbage, shredded lettuce, tomato)":{
+				"qty":1.5,
+				"UI":"cup"
+			},
+			"tortillas":{
+				"qty":12,
+				"UI":"each"
+			}
+		},
+		"page":23,
+		"image":"TacosWithRainbowSides.png"
+	},
+	{
+		"meal":"breakfast",
+		"name":"Green Strawberry Smoothie",
+		"yield":2,
+		"prep time":10,
+		"cook time":0,
+		"ingredients":{
+			"baby spinach":{
+				"qty":2,
+				"UI":"cup"
+			},
+			"banana":{
+				"qty":1,
+				"UI":"each"
+			},
+			"frozen blueberries":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"frozen strawberries":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"milk":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"hemp hearts":{
+				"qty":1,
+				"UI":"Tbs"
+			},
+			"nut/seed butter":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"sprinkles":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":29,
+		"image":"GreenStrawberrySmoothie.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Waffle & Sunflower Seed Butter Sandwich with Fruit",
+		"yield":1,
+		"prep time":5,
+		"cook time":2,
+		"ingredients":{
+			"freezer waffle":{
+				"qty":1,
+				"UI":"each"
+			},
+			"nut/seed butter":{
+				"qty":1,
+				"UI":"Tbs"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":30,
+		"image":"WaffleSunflowerSeedButterSandwichWithFruit.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Tuna Salad Wrap with Fruit & Veggies",
+		"yield":3.5,
+		"prep time":10,
+		"cook time":0,
+		"ingredients":{
+			"can tuna":{
+				"qty":2,
+				"UI":"each"
+			},
+			"pickles":{
+				"qty":3,
+				"UI":"each"
+			},
+			"mayo":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"carrot":{
+				"qty":1,
+				"UI":"each"
+			},
+			"tortillas":{
+				"qty":3.5,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":31,
+		"image":"TunaSaladWrapWithFruitVeggies.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Freezer Date Cookies & Milk with Fruit & Vegetable",
+		"yield":24,
+		"prep time":15,
+		"cook time":13.5,
+		"ingredients":{
+			"dates (medjool if possible)":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"butter":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"egg":{
+				"qty":1,
+				"UI":"each"
+			},
+			"vanilla":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"buckwheat flour":{
+				"qty":0.33,
+				"UI":"cup"
+			},
+			"white whole wheat flour":{
+				"qty":0.66,
+				"UI":"cup"
+			},
+			"quick oats":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"baking soda":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"cinnamon":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"plain greek yogurt":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":32,
+		"image":"FreezerDateCookiesMilkWithFruitVegetable.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Roasted Lemon Pepper Fish and Veggies with Quinoa",
+		"yield":4,
+		"prep time":15,
+		"cook time":25,
+		"ingredients":{
+			"fish":{
+				"qty":4,
+				"UI":"each"
+			},
+			"avocado oil":{
+				"qty":1,
+				"UI":"each"
+			},
+			"lemon pepper":{
+				"qty":1,
+				"UI":"each"
+			},
+			"lemon":{
+				"qty":1,
+				"UI":"each"
+			},
+			"carrots":{
+				"qty":1,
+				"UI":"lb"
+			},
+			"broccolis":{
+				"qty":1,
+				"UI":"head"
+			},
+			"salt":{
+				"qty":1,
+				"UI":"each"
+			},
+			"quinoa":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"water":{
+				"qty":2,
+				"UI":"cup"
+			},
+			"olive oil":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":33,
+		"image":"RoastedLemonPepperFishAndVeggiesWithQuinoa.png"
+	},
+	{
+		"meal":"breakfast",
+		"name":"Granny Eggs with Veggies with Fruit",
+		"yield":1,
+		"prep time":7,
+		"cook time":5,
+		"ingredients":{
+			"bread":{
+				"qty":1,
+				"UI":"each"
+			},
+			"egg":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":39,
+		"image":"GrannyEggsWithVeggiesAndFruit.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Freezer Blueberry Chocolate Chip Muffin (with sweet potato) with Fruit",
+		"yield":12,
+		"prep time":20,
+		"cook time":16,
+		"ingredients":{
+			"wheat flour":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"buckwheat flour":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"almond flour":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"baking powder":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"baking soda":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"salt":{
+				"qty":0.25,
+				"UI":"tsp"
+			},
+			"avocado oil":{
+				"qty":0.33,
+				"UI":"cup"
+			},
+			"milk":{
+				"qty":0.66,
+				"UI":"cup"
+			},
+			"vanilla":{
+				"qty":2,
+				"UI":"tsp"
+			},
+			"sugar":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"sweet potato":{
+				"qty":0.75,
+				"UI":"cup"
+			},
+			"blueberries":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"chocolate chips":{
+				"qty":0.5,
+				"UI":"cup"
+			}
+		},
+		"page":40,
+		"image":"FreezerBlueberryChocolateChipMuffinWithFruit.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Bowtie Pasta with Pesto/Olive Oil & Parmesan Cheese With Fruit & Vegetable",
+		"yield":1,
+		"prep time":10,
+		"cook time":10,
+		"ingredients":{
+			"bowtie pasta":{
+				"qty":1,
+				"UI":"each"
+			},
+			"frozen peas":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"pesto":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":41,
+		"image":"BowtiePastaParmesanCheeseWithFruitAndVegetable.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Trail Mix",
+		"yield":1,
+		"prep time":0,
+		"cook time":0,
+		"ingredients":{
+			"trail mix":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":42,
+		"image":"TrailMix.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Burger & Fries with Rainbow Sides",
+		"yield":4,
+		"prep time":12,
+		"cook time":20,
+		"ingredients":{
+			"frozen burger patty":{
+				"qty":4,
+				"UI":"each"
+			},
+			"hamburger buns":{
+				"qty":4,
+				"UI":"each"
+			},
+			"ketchup":{
+				"qty":1,
+				"UI":"each"
+			},
+			"mustard":{
+				"qty":1,
+				"UI":"each"
+			},
+			"tomatoes":{
+				"qty":1,
+				"UI":"each"
+			},
+			"lettuce":{
+				"qty":1,
+				"UI":"each"
+			},
+			"pickles":{
+				"qty":1,
+				"UI":"each"
+			},
+			"broccolis":{
+				"qty":1,
+				"UI":"head"
+			},
+			"sweet potato":{
+				"qty":3,
+				"UI":"each"
+			},
+			"carrot pack":{
+				"qty":1,
+				"UI":"each"
+			},
+			"avocado oil":{
+				"qty":1,
+				"UI":"each"
+			},
+			"salt":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":43,
+		"image":"BurgerFriesWithRainbowSides.png"
+	},
+	{
+		"meal":"breakfast",
+		"name":"Pumpkin Pie Oatmeal",
+		"yield":4,
+		"prep time":5,
+		"cook time":15,
+		"ingredients":{
+			"rolled oats":{
+				"qty":1.5,
+				"UI":"cup"
+			},
+			"pureed pumpkin":{
+				"qty":0.75,
+				"UI":"cup"
+			},
+			"milk":{
+				"qty":2.5,
+				"UI":"cup"
+			},
+			"pumpkin pie spice":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"raisins":{
+				"qty":1,
+				"UI":"each"
+			},
+			"maple syrup":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":49,
+		"image":"PumpkinPieOatmeal.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Freezer Pink Pancakes (with Beets)",
+		"yield":27.5,
+		"prep time":15,
+		"cook time":20,
+		"ingredients":{
+			"cooked beets":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"milk":{
+				"qty":0.66,
+				"UI":"cup"
+			},
+			"egg":{
+				"qty":1,
+				"UI":"each"
+			},
+			"avocado oil":{
+				"qty":1,
+				"UI":"Tbs"
+			},
+			"plain yogurt":{
+				"qty":0.33,
+				"UI":"cup"
+			},
+			"vanilla":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"wheat flour":{
+				"qty":0.75,
+				"UI":"cup"
+			},
+			"buckwheat flour":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"baking powder":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"sugar":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"salt":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":50,
+		"image":"FreezerPinkPancakes.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Mediterranean Quinoa Salad",
+		"yield":4,
+		"prep time":10,
+		"cook time":10,
+		"ingredients":{
+			"quinoa":{
+				"qty":1.5,
+				"UI":"cup"
+			},
+			"white beans":{
+				"qty":15.5,
+				"UI":"oz"
+			},
+			"cucumber":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"tomatoes":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"olives":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"feta cheese":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"scallion":{
+				"qty":1,
+				"UI":"each"
+			},
+			"olive oil":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"lemon juice":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"salt":{
+				"qty":0.125,
+				"UI":"tsp"
+			},
+			"pepper":{
+				"qty":1,
+				"UI":"pinch"
+			}
+		},
+		"page":51,
+		"image":"MediterraneanQuinoaSalad.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Yogurt with Granola and Dried Fruit",
+		"yield":1,
+		"prep time":5,
+		"cook time":0,
+		"ingredients":{
+			"plain yogurt":{
+				"qty":1,
+				"UI":"each"
+			},
+			"granola":{
+				"qty":1,
+				"UI":"each"
+			},
+			"dried cranberries":{
+				"qty":1,
+				"UI":"each"
+			},
+			"honey":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":52,
+		"image":"YogurtWithGranolaAndDriedFruit.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Easy Crockpot Chili",
+		"yield":7,
+		"prep time":20,
+		"cook time":480,
+		"ingredients":{
+			"ground turkey":{
+				"qty":1,
+				"UI":"lb"
+			},
+			"oil":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"bell pepper":{
+				"qty":1,
+				"UI":"each"
+			},
+			"garlic":{
+				"qty":2,
+				"UI":"cloves"
+			},
+			"onion":{
+				"qty":1,
+				"UI":"each"
+			},
+			"celery":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"beans":{
+				"qty":31,
+				"UI":"oz"
+			},
+			"canned diced tomatoes":{
+				"qty":31,
+				"UI":"oz"
+			},
+			"chili powder":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"honey":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"salt":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"crackers":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":53,
+		"image":"EasyCrockpotChili.png"
+	}
+]
