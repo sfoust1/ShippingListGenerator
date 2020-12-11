@@ -1,5 +1,84 @@
 [
 	{
+		"meal":"dinner",
+		"name":"Posole",
+		"yield":4,
+		"prep time":20,
+		"cook time":25,
+		"ingredients":{
+			"olive oil":{
+				"qty":2,
+				"UI":"Tbs"
+			},
+			"pork roast (leg, rib, loin)":{
+				"qty":3.5,
+				"UI":"lb"
+			},
+			"onion":{
+				"qty":1,
+				"UI":"each"
+			},
+			"garlic cloves":{
+				"qty":6,
+				"UI":"each"
+			},
+			"dried ancho chile pepper":{
+				"qty":6,
+				"UI":"each"
+			},
+			"dried guajillo chile pepper":{
+				"qty":5,
+				"UI":"each"
+			},
+			"dried arbol chile pepper":{
+				"qty":3,
+				"UI":"each"
+			},
+			"bay leaf":{
+				"qty":2,
+				"UI":"each"
+			},
+			"oregano":{
+				"qty":1,
+				"UI":"Tbs"
+			},
+			"chicken broth":{
+				"qty":6,
+				"UI":"cup"
+			},
+			"hominy":{
+				"qty":45,
+				"UI":"oz"
+			},
+			"lime":{
+				"qty":2,
+				"UI":"each"
+			},
+			"salt/pepper":{
+				"qty":1,
+				"UI":"each"
+			},
+			"avocado":{
+				"qty":2,
+				"UI":"each"
+			},
+			"radishes":{
+				"qty":1,
+				"UI":"bunch"
+			},
+			"cilantro":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"tortilla chips":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":0,
+		"image":"posole.png"
+	},
+	{
 		"meal":"breakfast",
 		"name":"Blueberry Date Oatmeal with Cauliflower",
 		"yield":2,
@@ -997,5 +1076,176 @@
 		},
 		"page":53,
 		"image":"EasyCrockpotChili.png"
+	},
+	{
+		"meal":"breakfast",
+		"name":"Triangle Toast and Milk with Fruit and Veggie",
+		"yield":1,
+		"prep time":7,
+		"cook time":0,
+		"ingredients":{
+			"bread":{
+				"qty":1,
+				"UI":"each"
+			},
+			"milk":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":59,
+		"image":"TriangleToastAndMilkWithFruitAndVeggie.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Chocolate Chip Muffins (with Zucchini)",
+		"yield":12,
+		"prep time":20,
+		"cook time":16,
+		"ingredients":{
+			"buckwheat flour":{
+				"qty":1.33,
+				"UI":"cup"
+			},
+			"baking powder":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"baking soda":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"salt":{
+				"qty":0.5,
+				"UI":"tsp"
+			},
+			"avocado oil":{
+				"qty":0.25,
+				"UI":"cup"
+			},
+			"milk":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"vanilla":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"egg":{
+				"qty":1,
+				"UI":"each"
+			},
+			"cinnamon":{
+				"qty":1,
+				"UI":"tsp"
+			},
+			"honey":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"chocolate chips":{
+				"qty":0.5,
+				"UI":"cup"
+			},
+			"zucchini":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":60,
+		"image":"ChocolateChipMuffinsWithZucchini.png"
+	},
+	{
+		"meal":"lunch",
+		"name":"Rainbow Quesadilla with Fruit and Veggies",
+		"yield":1,
+		"prep time":10,
+		"cook time":5,
+		"ingredients":{
+			"tortilla":{
+				"qty":2,
+				"UI":"each"
+			},
+			"cheese":{
+				"qty":1,
+				"UI":"cup"
+			},
+			"veggie":{
+				"qty":2,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":61,
+		"image":"RainbowQuesadillaWithFruitAndVeggies.png"
+	},
+	{
+		"meal":"snacks",
+		"name":"Cereal Trail Mix with Fruit",
+		"yield":1,
+		"prep time":3,
+		"cook time":0,
+		"ingredients":{
+			"cereal":{
+				"qty":1,
+				"UI":"each"
+			},
+			"dried fruit":{
+				"qty":1,
+				"UI":"each"
+			},
+			"seeds":{
+				"qty":1,
+				"UI":"each"
+			},
+			"fruit":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":62,
+		"image":"CerealTrailMixWithFruit.png"
+	},
+	{
+		"meal":"dinner",
+		"name":"Roasted Chicken and Veggies with Rice",
+		"yield":4,
+		"prep time":20,
+		"cook time":25,
+		"ingredients":{
+			"chicken":{
+				"qty":4,
+				"UI":"each"
+			},
+			"veggie":{
+				"qty":4,
+				"UI":"each"
+			},
+			"avocado oil":{
+				"qty":1,
+				"UI":"each"
+			},
+			"rice":{
+				"qty":4,
+				"UI":"each"
+			},
+			"seasoning":{
+				"qty":1,
+				"UI":"each"
+			}
+		},
+		"page":63,
+		"image":"RoastedChickenAndVeggiesWithRice.png"
 	}
 ]
